@@ -1,0 +1,9 @@
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\bin\Debug\netcoreapp1.1\MvcMovie.deps.json
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\bin\Debug\netcoreapp1.1\MvcMovie.runtimeconfig.json
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\bin\Debug\netcoreapp1.1\MvcMovie.runtimeconfig.dev.json
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\bin\Debug\netcoreapp1.1\MvcMovie.dll
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\bin\Debug\netcoreapp1.1\MvcMovie.pdb
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\obj\Debug\netcoreapp1.1\MvcMovie.csprojResolveAssemblyReference.cache
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\obj\Debug\netcoreapp1.1\MvcMovie.AssemblyInfo.cs
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\obj\Debug\netcoreapp1.1\MvcMovie.dll
+C:\Users\brian\Desktop\Projekter\AdvancedBeginnerChallenge\advancedbeginnerchallenge\MvcMovie\MvcMovie\obj\Debug\netcoreapp1.1\MvcMovie.pdb
