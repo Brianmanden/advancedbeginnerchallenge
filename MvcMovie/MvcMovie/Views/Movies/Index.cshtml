@@ -1,4 +1,5 @@
-@model IEnumerable<MvcMovie.Models.Movie>
+@*@model IEnumerable<MvcMovie.Models.Movie>*@
+@model MvcMovie.ViewModels.MovieGenreViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -9,26 +10,38 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<form asp-controller="Movies" asp-action="Index" method="get">
+    <p>
+        <select asp-for="movieGenre" asp-items="Model.genres">
+            <option value="">All</option>
+        </select>
+
+        Title: <input type="text" name="searchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>
                 <th>
-                    @Html.DisplayNameFor(model => model.Title)
+                    @Html.DisplayNameFor(model => model.movies[0].Title)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.ReleaseDate)
+                    @Html.DisplayNameFor(model => model.movies[0].ReleaseDate)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Genre)
+                    @Html.DisplayNameFor(model => model.movies[0].Genre)
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Price)
+                    @Html.DisplayNameFor(model => model.movies[0].Price)
                 </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+@foreach (var item in Model.movies) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
