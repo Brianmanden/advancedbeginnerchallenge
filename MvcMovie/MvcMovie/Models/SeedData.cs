@@ -17,10 +17,10 @@ namespace MvcMovie.Models
                 }
 
                 context.Movie.AddRange(
-                    new Movie { Title = "Batman", ReleaseDate = DateTime.Parse("1999-1-1"), Genre = "Action", Price = 12.25M},
-                    new Movie { Title = "Superman", ReleaseDate = DateTime.Parse("2001-2-3"), Genre = "Action", Price = 11.75M},
-                    new Movie { Title = "Green Lantern", ReleaseDate = DateTime.Parse("2002-8-5"), Genre = "Action", Price = 21.30M },
-                    new Movie { Title = "GhostBusters", ReleaseDate = DateTime.Parse("1994-5-6"), Genre = "Comedy", Price = 18.64M }
+                    new Movie { Title = "Batman", ReleaseDate = DateTime.Parse("1999-1-1"), Genre = "Action", Price = 12.25M, Rating="R"},
+                    new Movie { Title = "Superman", ReleaseDate = DateTime.Parse("2001-2-3"), Genre = "Action", Price = 11.75M, Rating = "R"},
+                    new Movie { Title = "Green Lantern", ReleaseDate = DateTime.Parse("2002-8-5"), Genre = "Action", Price = 21.30M, Rating = "R"},
+                    new Movie { Title = "GhostBusters", ReleaseDate = DateTime.Parse("1994-5-6"), Genre = "Comedy", Price = 18.64M, Rating = "R"}
                 );
 
                 context.SaveChanges();
